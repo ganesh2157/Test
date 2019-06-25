@@ -6,11 +6,8 @@ var app = express();
 var customerController=function (req, res) {
   console.log("CAlling rest api");
   var abc=[
-            {firstName:'Ravi',lastName:'Tambade',age:43},
-            {firstName:'Prashant',lastName:'Karhale',age:43},
-            {firstName:'Rohit',lastName:'Puranik',age:28},
-            {firstName:'Shiv',lastName:'Kumar',age:25},
-            {firstName:'Manoj',lastName:'Pande',age:23}
+            {ProductName:'Watch',descriptionOfProdect:'Wrist Watch',price:4000},
+            
       ];
   res.send(abc);
 };
